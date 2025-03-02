@@ -1,8 +1,8 @@
 from flask import Flask, request, render_template, redirect, url_for, jsonify
 from flask_cors import CORS
 from src.constants import APP_HOST, APP_PORT, DEBUG
-from src.pipline.prediction_pipeline import visaData, visaClassifier
-from src.pipline.training_pipeline import TrainPipeline
+from src.pipeline.prediction_pipeline import visaData, visaClassifier
+from src.pipeline.training_pipeline import TrainPipeline
 
 app = Flask(__name__)
 CORS(app)
