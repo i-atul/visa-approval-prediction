@@ -1,0 +1,159 @@
+.navbar-light .navbar-brand {
+    color: rgba(255, 255, 255, .9);
+}
+
+.navbar-light .navbar-brand {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #E2F1E7;
+}
+
+.formBox {
+    margin-top: 50px;
+    padding: 50px;
+}
+
+.card {
+    border-radius: 10px;
+    border-color: #387478;
+}
+
+.card-body {
+    padding: 2rem;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    margin-bottom: 50px !important;
+    text-transform: uppercase;
+    font-size: 48px;
+    color: #243642;
+}
+
+.inputBox {
+    position: relative;
+    box-sizing: border-box;
+    margin-bottom: 40px;
+}
+
+.button {
+    width: 200px;
+    background: #00bcd4;
+    color: #fff;
+    border-radius: 0;
+    border: none;
+    outline: none;
+    height: 50px;
+    font-size: 24px;
+}
+
+.input {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 24px;
+    border-bottom: 2px solid rgba(0, 0, 0, .5);
+}
+
+.inputText {
+    position: absolute;
+    line-height: 50px;
+    font-size: 24px;
+    transition: .5s;
+    opacity: 0.5;
+}
+
+.focus .inputText {
+    transform: translateY(-30px);
+    font-size: 18px;
+    opacity: 1;
+    color: #00bcd4;
+}
+
+.btn_train {
+    width: 100%;
+    background: #387478;
+    color: #fff;
+    border-radius: 0;
+    border: none;
+    outline: none;
+    height: 50px;
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+.btn-success {
+    width: 100%;
+    background: #387478;
+    color: #fff;
+    border-radius: 0;
+    border: none;
+    outline: none;
+    height: 40px;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.navbar .navbar-brand img {
+    margin-left: auto;
+    margin-right: 0;
+}
+
+.github-icon {
+    position: absolute;
+    top: 70px;
+    right: 20px;
+}
+
+.result-box {
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 5px;
+    font-size: 10px;
+    max-width: 400px;
+}
+
+.result-box.approved {
+    background-color: #d4edda;
+    color: #155724;
+}
+
+.result-box.not-approved {
+    background-color: #f8d7da;
+    color: #721c24;
+}
+
+.training-status {
+    margin-top: 20px;
+}
+
+.training-status ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.training-status li {
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+.progress {
+    height: 30px;
+}
+
+.progress-bar {
+    font-size: 16px;
+    line-height: 30px;
+    background-color: #387478;
+}

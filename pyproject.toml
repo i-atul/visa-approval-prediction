@@ -1,0 +1,11 @@
+[project]
+name = "src"
+version = "1.0.0"
+description = "A project for visa approval prediction"
+authors = [{name = "Atul Singh", email = "realm.atulsingh@gmail.com"}]
+
+[tool.setuptools]
+packages = {find = {}}
+
+[tool.setuptools.dynamic]
+dependencies = {file = "requirements.txt"}
