@@ -1,4 +1,4 @@
-# Visa Prediction Project 
+# Visa Approval Prediction
 
 ## Overview
 Welcome to the **Visa Prediction Project**! This project integrates  **Machine Learning (ML)** to streamline the process of predicting visa application approvals or rejections. By leveraging MLOps best practices, we ensure efficient model development, automation, and seamless version control, making the system robust, scalable, and production-ready.
